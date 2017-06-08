@@ -1,0 +1,23 @@
+{
+  "name": "realestateadmin",
+  "version": "1.0.0",
+  "description": "Backend (admin) for Real Estate Portal",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node app"
+  },
+  "dependencies": {
+    "bcryptjs": "*",
+    "body-parser": "*",
+    "cors": "*",
+    "express": "*",
+    "jsonwebtoken": "*",
+    "mysql": "*",
+    "nodemon": "^1.11.0",
+    "passport": "*",
+    "passport-jwt": "*"
+  },
+  "author": "Lordwill",
+  "license": "ISC"
+}
